@@ -1,0 +1,17 @@
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+    .google{
+        border:none;
+        background-color: rgb(53, 106, 128);
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 20px;
+        cursor: pointer;
+    }
+}

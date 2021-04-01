@@ -1,0 +1,114 @@
+.chatroom{
+    background-color: white;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    .chatroom-input-div{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 5%;
+        left: 50%;
+
+    }
+   .chatroom-input{
+       width: 400px;
+       height:80px;
+       display: flex;
+       justify-content: space-around;
+       background-color: black;
+     
+       .chatroom-input-text-div{
+           width: 75%;
+           height: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        .chatroom-input-text{
+            height: 25px;
+            width: 100%;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:focus{
+               outline: 0;
+            }
+        }
+       }
+       .chatroom-input-button-div{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        .chatroom-input-button{
+            margin-left: 10px;
+            font-size: 18px;
+            border-radius: 50%;
+            height: 50px;
+            border: none;
+            background-color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            &:focus{
+               outline: 0;
+            }
+        }
+       }
+      
+
+   }
+    .message{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 90px;
+        .image-div{
+            height: 100%;
+            width: 60px;
+            position: relative;
+            .image{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                display: flex;
+                position: absolute;
+                bottom: 0px;
+            }
+        }
+       
+       
+        .text{
+            height: 60px;
+        }
+        
+    }
+    .sent{
+     justify-content: flex-end;
+     .image-div{
+         order:2;
+     }
+     .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px 0 20px;
+        border-radius: 20px;
+        border-bottom-right-radius: 0px;
+        padding: 5px 15px;
+        background-color: black;
+    }
+    }
+    .received{
+        justify-content: flex-start;
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 20px 0 20px;
+            border-radius: 20px;
+            border-bottom-left-radius: 0px;
+            padding: 5px 10px;
+            background-color: black;
+        }
+    }
+    
+}
