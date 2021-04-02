@@ -1,6 +1,6 @@
 import { firestore, auth } from '../firebaseutlis';
 import firebase from 'firebase/app';
-import { useAuthState } from 'react-firebase-hooks/auth';
+//import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import { useState } from 'react';
 import './chatcomponent.scss';
